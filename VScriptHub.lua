@@ -1,3 +1,4 @@
+wait(5)
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("VScript Hub V/1.0", "Sentinel")
 print("You Actived VScript Hub V/1.0 |✔|")
