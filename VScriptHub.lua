@@ -134,6 +134,10 @@ VScriptHubPSection:NewButton("SimpleSpy", "SimpleSpy", function()
 loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
 end)
 
+Section:NewDropdown("DropdownText", "DropdownInf", {"Option 1", "Option 2", "Option 3"}, function(currentOption)
+    print(currentOption)
+end)
+
 
 --VScript Hub Section--
 
