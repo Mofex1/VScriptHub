@@ -122,12 +122,16 @@ end)
 
 VScriptHubPSection:NewButton("Remote Spy", "Remote Spy", function()
 
+    -- this have been uploaded in scriptblox.com by Ice_ :)
+
     pcall(loadstring(game:HttpGet("https://pastebin.com/raw/uUSdAFig")))
 end)
 
 VScriptHubPSection:NewButton("SimpleSpy", "SimpleSpy", function()
 
-    pcall(loadstring(game:HttpGet("https://pastebin.com/raw/uUSdAFig")))
+-- this have been uploaded in scriptblox.com by Ice_ :)
+
+loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
 end)
 
 
