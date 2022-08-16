@@ -1,7 +1,7 @@
 wait(5)
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("VScript Hub V/1.0", "Sentinel")
-print("You Actived VScript Hub V/1.0 |✔|")
+local Window = Library.CreateLib("VScript Hub V/1.0", "DarkTheme")
+
 
 
 --Main
@@ -112,9 +112,23 @@ end)
 
 --VScript Hub Premium Section--
 
-local VScriptHubTab = Window:NewTab("VScript Premium")
-local VScriptHubSection = VScriptHubTab:NewSection("VScript Premium")
+local VScriptHubPTab = Window:NewTab("VScript Premium")
+local VScriptHubPSection = VScriptHubPTab:NewSection("VScript Premium")
 
+VScriptHubPSection:NewButton("Absalom Titan form", "Titan Form", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/ZmySaMrb", true))()
+end)
+
+VScriptHubPSection:NewButton("Remote Spy", "Remote Spy", function()
+
+    pcall(loadstring(game:HttpGet("https://pastebin.com/raw/uUSdAFig")))
+end)
+
+VScriptHubPSection:NewButton("SimpleSpy", "SimpleSpy", function()
+
+    pcall(loadstring(game:HttpGet("https://pastebin.com/raw/uUSdAFig")))
+end)
 
 
 --VScript Hub Section--
@@ -277,8 +291,9 @@ end)
 VScriptHubSection:NewButton("SolarisHub", "SolarisHub", function()
     loadstring(game:HttpGet('https://solarishub.dev/script.lua',true))()
 end)
-print('key: 1eab6fc347e1af62d1b4ee545c17936f3a83a7256538c99dff23045f4167a084')
-
+if print() then
+    print(('key: 1eab6fc347e1af62d1b4ee545c17936f3a83a7256538c99dff23045f4167a084'))
+end
 
 --SorkyHub
 
@@ -345,7 +360,7 @@ end)
 local SettingsTab = Window:NewTab("Settings")
 local SettingsSection = SettingsTab:NewSection("Settings")
 
-SettingsSection:NewKeybind("UI Toggle", "Hide UI", Enum.KeyCode.C, function()
+SettingsSection:NewKeybind("UI Toggle", "Hide UI", Enum.KeyCode.RightAlt, function()
 	Library:ToggleUI()
 end)
 
