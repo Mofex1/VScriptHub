@@ -406,4 +406,5 @@ end)
 --Credits
 
 local CreditsTab = Window:NewTab("Credits")
-local Creditsection = CreditsTab:NewSection("Credits")
+local CreditsSection = CreditsTab:NewSection("Credits")
+CreditsSection:NewLabel("abdalrhmanjfkdsf")
