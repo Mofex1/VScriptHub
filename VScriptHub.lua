@@ -353,12 +353,12 @@ GamesSection:NewButton("Jailbreak Vynixu", "RegularVynixu", function()
 end)
 
 GamesSection:NewButton("Prison Life", "VScript", function()
-    loadstring(game:HttpGet("https://pastebin.com/u6NMqStY"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro-Gaming6/VScriptHub/main/Prison%20Life"))()
     print("You Just Actived Prison Life VScript|✔|")
 end)
 
 GamesSection:NewButton("Ninja Legends", "Voidz", function()
-    loadstring(game:HttpGet("https://pastebin.com/0w9hzLyP"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro-Gaming6/VScriptHub/main/Ninja%20Legends"))()
     print("You Just Actived Ninja Legends Voidz|✔|")
 end)
 
