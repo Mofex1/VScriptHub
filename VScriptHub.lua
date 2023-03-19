@@ -75,7 +75,7 @@ PlayerSection:NewButton("Press(B) No Clip", "Throw In the wall", function()
     pcall(loadstring(game:HttpGet("https://pastebin.com/raw/kt3Nxzw1")))
 end)
 
-PlayerSection:NewButton("Gravity", "Gravity", function()
+PlayerSection:NewButton("Gravity", "make the Gravity low", function()
     pcall(loadstring(game:HttpGet("https://pastebin.com/raw/0JgQ1hJy")))
 end)
 
@@ -89,25 +89,6 @@ PlayerSection:NewToggle("Super Human", "go fast like flash and jump high like hu
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
     end
 end)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 --VScript Hub Premium Section--
