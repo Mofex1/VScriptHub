@@ -322,26 +322,11 @@ end)
 
 --Games Supported
 
---Jailbreak
+if game.PlaceId == 3101667897 then
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/Games.lua'),true))()
+end
 
-local GamesTab = Window:NewTab("Games")
-local GamesSection = GamesTab:NewSection("Games")
 
-
-GamesSection:NewButton("Jailbreak Vynixu", "RegularVynixu", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
-    print("You Just Actived Jailbreak Vynixu|✔|")
-end)
-
-GamesSection:NewButton("Prison Life", "VScript", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro-Gaming6/VScriptHub/main/Prison%20Life"))()
-    print("You Just Actived Prison Life VScript|✔|")
-end)
-
-GamesSection:NewButton("Ninja Legends", "Voidz", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro-Gaming6/VScriptHub/main/Ninja%20Legends"))()
-    print("You Just Actived Ninja Legends Voidz|✔|")
-end)
 
 --Settings
 
@@ -387,4 +372,3 @@ end)
 
 local CreditsTab = Window:NewTab("Credits")
 local Creditsection = CreditsTab:NewSection("Credits")
-
