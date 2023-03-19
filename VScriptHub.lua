@@ -352,6 +352,11 @@ GamesSection:NewButton("Jailbreak Vynixu", "RegularVynixu", function()
     print("You Just Actived Jailbreak Vynixu|✔|")
 end)
 
+GamesSection:NewButton("Prison Life", "VScript", function()
+    loadstring(game:HttpGet("https://pastebin.com/u6NMqStY"))()
+    print("You Just Actived Prison Life VScript|✔|")
+end)
+
 
 --Settings
 
