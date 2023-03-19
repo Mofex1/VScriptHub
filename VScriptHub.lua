@@ -322,9 +322,6 @@ end)
 
 --Games Supported
 
-if game.PlaceId == 3101667897 then
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/Games.lua'),true))()
-end
 
 
 
