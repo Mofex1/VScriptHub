@@ -31,14 +31,41 @@
         end
     end)
 
-    -- PLAYER
-    local Player = Window:NewTab("Player")
-    local PlayerSection = Player:NewSection("Player")
+   local PlayerTab = Window:NewTab("Player")
+local PlayerSection = PlayerTab:NewSection("Player")
 
-    PlayerSection:NewSlider("Walkspeed", "Changes the walkspeed", 250, 16, function(v)
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
-    end)
+PlayerSection:NewSlider("Wallkspeed", "can change your speed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
 
-    PlayerSection:NewSlider("Jumppower", "Changes the jumppower", 250, 50, function(v)
-        game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
-    end)
+PlayerSection:NewSlider("JumpPower", "High Jump", 120, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+PlayerSection:NewButton("Press(C) To Fly", "Make You Flying", function()
+
+    
+end)
+
+PlayerSection:NewButton("Press(V) Infinite Jump", "Can Make Yourslef jump With No Limit", function()
+    pcall(loadstring(game:HttpGet("https://pastebin.com/raw/2wgbZ6Xd")))
+end)
+
+PlayerSection:NewButton("Press(B) No Clip", "Throw In the wall", function()
+    pcall(loadstring(game:HttpGet("https://pastebin.com/raw/kt3Nxzw1")))
+end)
+
+PlayerSection:NewButton("Gravity", "make the Gravity low", function()
+    pcall(loadstring(game:HttpGet("https://pastebin.com/raw/0JgQ1hJy")))
+end)
+
+PlayerSection:NewToggle("Super Human", "go fast like flash and jump high like hulk", function(state)
+    if state then
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 500
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
+        loadstring(game:HttpGet("https://pastebin.com/raw/jebnPDXh", true))()
+    else
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    end
+end)
