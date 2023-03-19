@@ -352,16 +352,6 @@ GamesSection:NewButton("Jailbreak Vynixu", "RegularVynixu", function()
     print("You Just Actived Jailbreak Vynixu|✔|")
 end)
 
-GamesSection:NewButton("Legends Of Speed", "Voidz Script", function()
-    loadstring(game:HttpGet("loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/Games.lua'),true))()
-    print("You Just Actived Legends Of Speed Voidz|✔|")
-end)
-
-
-GamesSection:NewButton("Prison Life", "VScript", function()
-    loadstring(game:HttpGet("loadstring(game:HttpGet("https://pastebin.com/u6NMqStY"))()'),true))()
-    print("You Just Actived Prison Life Vscript|✔|")
-end)
 
 --Settings
 
