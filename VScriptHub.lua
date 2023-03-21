@@ -71,8 +71,8 @@ PlayerSection:NewButton("Press(V) Infinite Jump", "Can Make Yourslef jump With N
     pcall(loadstring(game:HttpGet("https://pastebin.com/raw/2wgbZ6Xd")))
 end)
 
-PlayerSection:NewButton("Press(B) No Clip", "Moving In the wall", function()
-    pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro-Gaming6/VScriptHub/main/Noclip%20Script.lua")))
+PlayerSection:NewButton("Press(B) No Clip", "Throw In the wall", function()
+    pcall(loadstring(game:HttpGet("https://pastebin.com/raw/kt3Nxzw1")))
 end)
 
 PlayerSection:NewButton("Gravity", "make the Gravity low", function()
@@ -395,7 +395,8 @@ end)
 --Credits
 
 local CreditsTab = Window:NewTab("Credits")
-local Creditsection = CreditsTab:NewSection("Credits")
+local CreditsSection = CreditsTab:NewSection("Credits")
+CreditsSection:NewLabel("Developer: abdalrhmanjfkdsf")
 
 -- 🤖 Auto Loader System 🤖
 
