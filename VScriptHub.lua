@@ -348,6 +348,11 @@ local GamesSection = GamesTab:NewSection("Games")
         print("You Just Actived Apocalypse Tycoon Inf Money ✔")
     end)
 
+    GamesSection:NewButton("Construction Tycoon", "Auto Farm", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro-Gaming6/VScriptHub/main/Construction%20Tycoon%20Script"))()
+        print("You Just Actived Construction Tycoon Auto Farm ✔")
+    end)
+
 --Settings
 
 local SettingsTab = Window:NewTab("Settings")
