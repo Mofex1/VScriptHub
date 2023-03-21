@@ -329,9 +329,8 @@ local GamesSection = GamesTab:NewSection("Games")
 
 
     GamesSection:NewButton("Jailbreak Vynixu", "RegularVynixu", function()
-        if loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))() then   
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
          print("You Just Actived Jailbreak Vynixu ✔")
-        end
     end)
 
     GamesSection:NewButton("Prison Life", "VScript", function()
@@ -340,16 +339,13 @@ local GamesSection = GamesTab:NewSection("Games")
     end)
 
     GamesSection:NewButton("Ninja Legends", "Voidz", function()
-        if loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro-Gaming6/VScriptHub/main/Ninja%20Legends"))() then
-            textLabel.Text = "You Just Actived Ninja Legends Voidz ✔" else wait(5)
-                visible = false
-        end
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro-Gaming6/VScriptHub/main/Ninja%20Legends"))()
+        print("You Just Actived Ninja Legends Voidz ✔")
     end)
 
     GamesSection:NewButton("Apocalypse Tycoon", "Inf Money", function()
-        if loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro-Gaming6/VScriptHub/main/Apocalypse%20Tycoon"))() then
-            print("You Just Actived Apocalypse Tycoon Inf Money ✔")
-        end
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro-Gaming6/VScriptHub/main/Apocalypse%20Tycoon"))()
+        print("You Just Actived Apocalypse Tycoon Inf Money ✔")
     end)
 
 --Settings
