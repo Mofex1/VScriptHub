@@ -334,7 +334,7 @@ local GamesSection = GamesTab:NewSection("Games")
     end)
 
     GamesSection:NewButton("Prison Life", "VScript", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro-Gaming6/VScriptHub/main/Prison%20Life"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro-Gaming6/VScriptHub/main/Prison%20Life.lua"))()
         print("You Just Actived Prison Life VScript ✔")
     end)
 
