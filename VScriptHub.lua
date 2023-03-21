@@ -1,3 +1,4 @@
+---@diagnostic disable: deprecated, undefined-global, param-type-mismatch
 wait(2)
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("VScript Hub V/1.0", "DarkTheme")
@@ -108,7 +109,7 @@ end)
 
 VScriptHubPSection:NewButton("SimpleSpy", "SimpleSpy", function()
 
-    pcall(loadstring(game:HttpGet("https://pastebin.com/raw/uUSdAFig")))
+    pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua")))
 end)
 
 
