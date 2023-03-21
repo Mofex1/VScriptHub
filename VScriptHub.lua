@@ -63,9 +63,8 @@ PlayerSection:NewSlider("JumpPower", "High Jump", 120, 50, function(s) -- 500 (M
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
-PlayerSection:NewButton("Press(C) To Fly", "Make You Flying", function()
-
-    
+PlayerSection:NewButton("Press(F) To Fly", "Make You Flying", function()
+    loadstring(game:HttpGet("https://pastebin.com/Wu7RR5q0", true))()
 end)
 
 PlayerSection:NewButton("Press(V) Infinite Jump", "Can Make Yourslef jump With No Limit", function()
