@@ -398,17 +398,3 @@ local CreditsTab = Window:NewTab("Credits")
 local CreditsSection = CreditsTab:NewSection("Credits")
 CreditsSection:NewLabel("Developer: abdalrhmanjfkdsf")
 
--- 🤖 Auto Loader System 🤖
-
--- Construction Tycoon
-
-if game.PlaceID == 10775789257 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro-Gaming6/VScriptHub/main/Construction%20Tycoon%20Script"))()
-end
-
--- Ninja Legends
-
-if game.PlaceId == 3956818381 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro-Gaming6/VScriptHub/main/Ninja%20Legends.lua"))()
-end
-
